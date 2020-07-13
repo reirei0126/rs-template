@@ -1,0 +1,23 @@
+.scrollarea {
+	/* こいつが重要 */
+	overflow:scroll;
+	height:250px;
+	line-height:2.5;
+	padding:10px 0;
+}
+ .scrollarea ul {
+    list-style: none;
+}
+
+.scrollarea::-webkit-scrollbar {
+    width: 7px;
+}
+  
+.scrollarea::-webkit-scrollbar-thumb { 
+    background: linear-gradient(0deg,#43e2c6,#3183d0);
+    border-radius: 3px;
+}
+
+.scrollarea::-webkit-scrollbar-track {  
+    background: rgba(100,100,100, .5);
+}
